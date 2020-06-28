@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 RETURN_MSG = {
         "status": "up and running",
-        "version": "this is version A."
+        "version": "this is version B."
 }
 
 @app.route('/api/demo/', methods=['GET'])
